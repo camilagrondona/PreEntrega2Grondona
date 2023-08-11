@@ -1,0 +1,25 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    background-color: rgb(218, 214, 214);
+    font-family: "Instrument Serif", serif;
+    font-size: 1rem;
+}
+
+/* Estilo header */
+
+header h1 {
+    text-align: center;
+}
+
+/* Estilo de footer */
+footer {
+    color: rgba(27, 0, 67, 0.904);
+    text-align: center;
+}
