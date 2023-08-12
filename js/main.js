@@ -22,8 +22,8 @@ const planes = [{
 
 // Find 
 
-let inputValido = true;
-while (inputValido) {
+let validPrompt = true;
+while (validPrompt) {
 
     let nombre = prompt("Ingrese el nombre del plan que desea verificar").toUpperCase();
     let plan = planes.find((plan) => plan.nombre === nombre);
@@ -35,7 +35,7 @@ Id: ${plan.id}
 Nombre: ${plan.nombre}
 Precio: ${plan.precio}
 `);
-        inputValido = false; // Valor ingresado es válido, salir del bucle
+        validPrompt = false; // Valor ingresado es válido, salir del bucle
     } else {
         alert("El plan que ingresaste no se encuentra disponible, intenta de nuevo.");
     }
